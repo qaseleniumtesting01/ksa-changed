@@ -1,0 +1,140 @@
+[INFO] [2019-01-20 14:40:33,448 +0200] - FSA Configuration {
+projectPerFolder=false
+connectionTimeOut=60
+checkPolicies=false
+serviceUrl=https://staging.whitesourcesoftware.com/agent
+forceCheckAllDependencies=false
+forceUpdate=false
+forceUpdateFailBuildOnPolicyViolation=false
+updateTypeValue=OVERRIDE
+updateInventory=true
+offline=false
+zip=false
+prettyJson=true
+ignoreSourceFiles=false
+npm: {npmRunPreStep=true, npmIgnoreScripts=false, npmResolveDependencies=true, npmIncludeDevDependencies=true, npmTimeoutDependenciesCollector=60, npmIgnoreNpmLsErrors=true, npmYarnProject=false, npmIgnoreSourceFiles=true, npmIdentifyByNameAndVersion=false, }
+bower: {bowerResolveDependencies=false, bowerRunPreStep=false, bowerIgnoreSourceFiles=false, }
+nuget: {nugetResolveDependencies=false, nugetRestoreDependencies=false, nugetRunPreStep=false, nugetIgnoreSourceFiles=true, nugetResolvePackagesConfigFiles=true, nugetResolveCsProjFiles=true, }
+maven: {mavenResolveDependencies=true, mavenIgnoredScopes=[All], mavenAggregateModules=true, mavenIgnorePomModules=true, mavenIgnoreSourceFiles=false, mavenRunPreStep=false, mavenIgnoreDependencyTreeErrors=false, mavenEnvironmentPath=, }
+python: {pythonResolveDependencies=false, pipPath=pip, pythonPath=python, pythonIgnorePipInstallErrors=false, pythonInstallVirtualenv=false, pythonResolveHierarchyTree=true, pythonRequirementsFileIncludes=[requirements.txt, Pipfile], pythonResolveSetupPyFiles=false, pythonIgnoreSourceFiles=true, ignorePipEnvInstallErrors=false, pipenvInstallDevDependencies=false, runPipenvPreStep=false, pythonIsWssPluginInstalled=false, pythonUninstallWssPlugin=false, }
+gradle: {gradleResolveDependencies=true, gradleRunAssembleCommand=true, gradleAggregateModules=true, gradlePreferredEnvironment=gradle, gradleLocalRepositoryPath=, gradleIgnoreSourceFiles=false, gradleRunPreStep=true, gradleIgnoredScopes=[], }
+paket: {paketResolveDependencies=true, paketIgnoredScopes=, paketRunPreStep=false, paketPath=, paketIgnoreSourceFiles=true, }
+go: {goResolveDependencies=false, goDependencyManager=, goCollectDependenciesAtRuntime=false, goGlideIgnoreTestPackages=true, goGlideIgnoreSourceFiles=false, goGradleEnableTaskAlias=false, }
+ruby: {rubyResolveDependencies=false, rubyRunBundleInstall=false, rubyOverwriteGemFile=false, rubyInstallMissingGems=false, rubyIgnoreSourceFiles=true, }
+php: {phpResolveDependencies=false, phpRunPreStep=false, phpIncludeDevDependencies=false, }
+sbt: {sbtResolveDependencies=true, sbtAggregateModules=false, sbtRunPreStep=false, sbtTargetFolder=[], sbtIgnoreSourceFiles=false, }
+html: {htmlResolveDependencies=false, }
+cocoapods: {cocoapodsResolveDependencies=true, cocoapodsRunPreStep=false, cocoapodsIgnoreSourceFiles=true, }
+hex: {hexResolveDependencies=true, hexRunPreStep=false, hexAggregateModules=false, hexIgnoreSourceFiles=true, }
+fileListPath=
+dependencyDirs=[C:/JavaProjects/Changed/ksa_changed/ksa-service-root/ksa-finance-service]
+configFilePath=C:\JavaProjects\whitesource-fs-agent.config
+includes=[**/*.js]
+excludes=[]
+dockerIncludes=[.*.*]
+dockerExcludes=[]
+pythonRequirementsFileIncludes=[requirements.txt]
+archiveExtractionDepth=0
+archiveIncludes=[]
+archiveExcludes=[]
+followSymlinks=true
+dockerScan=false
+globCaseSensitive=false
+projectPerFolderIncludes=[*]
+projectPerFolderExcludes=[]
+apiToken=******
+userKey=
+projectVersion=
+projectToken=
+projectPerSubFolder=false
+requesterEmail=
+productToken=
+productName=ksa-multi
+productVersion=
+projectName=ksa-finance-service
+scanComment=
+requireKnownSha1=false
+scanPackageManager=false
+scanDockerImages=false
+scanServerlessFunctions=false
+logLevel=info
+}
+[INFO] [2019-01-20 14:40:33,626 +0200] - Starting analysis
+[INFO] [2019-01-20 14:40:33,631 +0200] - Scanning directories [C:\JavaProjects\Changed\ksa_changed\ksa-service-root\ksa-finance-service] for matching Files (may take a few minutes)
+[INFO] [2019-01-20 14:40:33,633 +0200] - Included file types: **/*.js
+[INFO] [2019-01-20 14:40:33,633 +0200] - Excluded file types: 
+[INFO] [2019-01-20 14:40:33,703 +0200] - Attempting to resolve dependencies
+[INFO] [2019-01-20 14:40:37,016 +0200] - Trying to resolve MAVEN dependencies
+[INFO] [2019-01-20 14:40:37,016 +0200] - topFolder = C:\JavaProjects\Changed\ksa_changed\ksa-service-root\ksa-finance-service
+[INFO] [2019-01-20 14:40:53,034 +0200] - Start parsing pom files
+[INFO] [2019-01-20 14:40:53,044 +0200] - End parsing pom files , found : ksa-finance-service
+[INFO] [2019-01-20 14:40:53,333 +0200] - Total dependencies found: 27
+[INFO] [2019-01-20 14:40:53,334 +0200] - Scanning directories [C:\JavaProjects\Changed\ksa_changed\ksa-service-root\ksa-finance-service] for matching Files (may take a few minutes)
+[INFO] [2019-01-20 14:40:53,354 +0200] - Total files found according to the includes/excludes pattern: 0
+[INFO] | [                                 ] 0% - 0 of 0 files
+[INFO] [2019-01-20 14:40:53,356 +0200] - Finished analyzing Files
+[INFO] [2019-01-20 14:40:53,371 +0200] - Initializing WhiteSource Client
+[INFO] [2019-01-20 14:40:53,375 +0200] - Service URL is https://staging.whitesourcesoftware.com/agent
+[INFO] [2019-01-20 14:40:54,286 +0200] - UpdateType set to OVERRIDE 
+[INFO] [2019-01-20 14:40:54,288 +0200] - Starting VIA impact analysis
+[INFO] [2019-01-20 14:40:54,345 +0200] - Starting analysis for: C:/JavaProjects/Changed/ksa_changed/ksa-service-root/ksa-finance-service/target/ksa-finance-service-3.9.0.jar
+[INFO] [2019-01-20 14:40:54,346 +0200] - --------------------Effective Usage Analysis----------------------
+[INFO] | [###                              ]                    (Total Progress: 10%)     
+[INFO] | [                                 ] Current Step: 01%  (Total Progress: 10%)    
+[INFO] | [#####                            ]                    (Total Progress: 15%)     
+[INFO] | [                                 ] Current Step: 01%  (Total Progress: 15%)    
+[INFO] / [######                           ]                    (Total Progress: 20%)     
+[INFO] / [                                 ] Current Step: 01%  (Total Progress: 20%)    
+[INFO] / [########                         ]                    (Total Progress: 25%)     
+[INFO] / [                                 ] Current Step: 01%  (Total Progress: 25%)    
+[INFO] - [##########                       ]                    (Total Progress: 30%)     
+[INFO] - [                                 ] Current Step: 01%  (Total Progress: 30%)    
+[INFO] - [###########                      ]                    (Total Progress: 35%)     
+[INFO] - [                                 ] Current Step: 01%  (Total Progress: 35%)    
+[INFO] \ [#############                    ]                    (Total Progress: 40%)     
+[INFO] \ [                                 ] Current Step: 01%  (Total Progress: 40%)    
+[INFO] \ [###############                  ]                    (Total Progress: 45%)     
+[INFO] \ [                                 ] Current Step: 01%  (Total Progress: 45%)    
+[INFO] | [################                 ]                    (Total Progress: 50%)     
+[INFO] | [                                 ] Current Step: 01%  (Total Progress: 50%)    
+[INFO] | [##################               ]                    (Total Progress: 55%)     
+[INFO] | [                                 ] Current Step: 01%  (Total Progress: 55%)    
+[INFO] / [####################             ]                    (Total Progress: 60%)     
+[INFO] / [                                 ] Current Step: 01%  (Total Progress: 60%)    
+[INFO] / [#################################] Current Step: 99%  (Total Progress: 60%)    
+[INFO] / [#####################            ]                    (Total Progress: 65%)     
+[INFO] - [                                 ] Current Step: 01%  (Total Progress: 65%)    
+[INFO] - [################                 ] Current Step: 50%  (Total Progress: 65%)    
+[INFO] - [#################################] Current Step: 99%  (Total Progress: 65%)    
+[INFO] - [#######################          ]                    (Total Progress: 70%)     
+[INFO] \ [                                 ] Current Step: 01%  (Total Progress: 70%)    
+[INFO] \ [#########################        ]                    (Total Progress: 75%)     
+[INFO] \ [                                 ] Current Step: 01%  (Total Progress: 75%)    
+[INFO] \ [##########################       ]                    (Total Progress: 80%)     
+[INFO] | [                                 ] Current Step: 01%  (Total Progress: 80%)    
+[INFO] | [############################     ]                    (Total Progress: 85%)     
+[INFO] | [                                 ] Current Step: 01%  (Total Progress: 85%)    
+[INFO] | [##############################   ]                    (Total Progress: 90%)     
+[INFO] / [                                 ] Current Step: 01%  (Total Progress: 90%)    
+[INFO] / [###############################  ]                    (Total Progress: 95%)     
+[INFO] / [                                 ] Current Step: 01%  (Total Progress: 95%)    
+[INFO] [2019-01-20 14:44:00,278 +0200] - Analysis finished (0:03:05)                                         
+[INFO] [2019-01-20 14:44:00,278 +0200] - SUMMARY
+[INFO] [2019-01-20 14:44:00,278 +0200] - ----------------------------------------
+[INFO] [2019-01-20 14:44:00,279 +0200] - Issues encountered during analysis:
+[EUA115]
+[EUA110]
+[INFO] [2019-01-20 14:44:00,279 +0200] - For more details please check the log file :C:\Users\ELADSA~1\AppData\Local\Temp\-2194536834010580204whitesource\log.txt
+[INFO] [2019-01-20 14:44:00,279 +0200] - ------------------------------------------------------------------
+[INFO] [2019-01-20 14:44:00,280 +0200] - Got impact analysis result from server
+[INFO] [2019-01-20 14:44:00,280 +0200] - Sending Update
+[INFO] [2019-01-20 14:44:08,941 +0200] - Inventory update results for EUA JS
+[INFO] [2019-01-20 14:44:08,942 +0200] - Newly created projects:
+[INFO] [2019-01-20 14:44:08,942 +0200] - # ksa-finance-service
+[INFO] [2019-01-20 14:44:08,942 +0200] - No projects were updated.
+[INFO] [2019-01-20 14:44:08,942 +0200] - Project name: ksa-finance-service, URL: https://staging.whitesourcesoftware.com/Wss/WSS.html#!project;id=752181
+[INFO] [2019-01-20 14:44:08,942 +0200] - Support Token: 2f0a46d4906814ffe89cb714694484c821547988239510
+[INFO] [2019-01-20 14:44:08,956 +0200] - Process finished with exit code SUCCESS (0)
+
+
+Logs is finalized

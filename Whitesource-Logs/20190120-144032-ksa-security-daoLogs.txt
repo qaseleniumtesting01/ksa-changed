@@ -1,0 +1,132 @@
+[INFO] [2019-01-20 14:40:33,235 +0200] - FSA Configuration {
+projectPerFolder=false
+connectionTimeOut=60
+checkPolicies=false
+serviceUrl=https://staging.whitesourcesoftware.com/agent
+forceCheckAllDependencies=false
+forceUpdate=false
+forceUpdateFailBuildOnPolicyViolation=false
+updateTypeValue=OVERRIDE
+updateInventory=true
+offline=false
+zip=false
+prettyJson=true
+ignoreSourceFiles=false
+npm: {npmRunPreStep=true, npmIgnoreScripts=false, npmResolveDependencies=true, npmIncludeDevDependencies=true, npmTimeoutDependenciesCollector=60, npmIgnoreNpmLsErrors=true, npmYarnProject=false, npmIgnoreSourceFiles=true, npmIdentifyByNameAndVersion=false, }
+bower: {bowerResolveDependencies=false, bowerRunPreStep=false, bowerIgnoreSourceFiles=false, }
+nuget: {nugetResolveDependencies=false, nugetRestoreDependencies=false, nugetRunPreStep=false, nugetIgnoreSourceFiles=true, nugetResolvePackagesConfigFiles=true, nugetResolveCsProjFiles=true, }
+maven: {mavenResolveDependencies=true, mavenIgnoredScopes=[All], mavenAggregateModules=true, mavenIgnorePomModules=true, mavenIgnoreSourceFiles=false, mavenRunPreStep=false, mavenIgnoreDependencyTreeErrors=false, mavenEnvironmentPath=, }
+python: {pythonResolveDependencies=false, pipPath=pip, pythonPath=python, pythonIgnorePipInstallErrors=false, pythonInstallVirtualenv=false, pythonResolveHierarchyTree=true, pythonRequirementsFileIncludes=[requirements.txt, Pipfile], pythonResolveSetupPyFiles=false, pythonIgnoreSourceFiles=true, ignorePipEnvInstallErrors=false, pipenvInstallDevDependencies=false, runPipenvPreStep=false, pythonIsWssPluginInstalled=false, pythonUninstallWssPlugin=false, }
+gradle: {gradleResolveDependencies=true, gradleRunAssembleCommand=true, gradleAggregateModules=true, gradlePreferredEnvironment=gradle, gradleLocalRepositoryPath=, gradleIgnoreSourceFiles=false, gradleRunPreStep=true, gradleIgnoredScopes=[], }
+paket: {paketResolveDependencies=true, paketIgnoredScopes=, paketRunPreStep=false, paketPath=, paketIgnoreSourceFiles=true, }
+go: {goResolveDependencies=false, goDependencyManager=, goCollectDependenciesAtRuntime=false, goGlideIgnoreTestPackages=true, goGlideIgnoreSourceFiles=false, goGradleEnableTaskAlias=false, }
+ruby: {rubyResolveDependencies=false, rubyRunBundleInstall=false, rubyOverwriteGemFile=false, rubyInstallMissingGems=false, rubyIgnoreSourceFiles=true, }
+php: {phpResolveDependencies=false, phpRunPreStep=false, phpIncludeDevDependencies=false, }
+sbt: {sbtResolveDependencies=true, sbtAggregateModules=false, sbtRunPreStep=false, sbtTargetFolder=[], sbtIgnoreSourceFiles=false, }
+html: {htmlResolveDependencies=false, }
+cocoapods: {cocoapodsResolveDependencies=true, cocoapodsRunPreStep=false, cocoapodsIgnoreSourceFiles=true, }
+hex: {hexResolveDependencies=true, hexRunPreStep=false, hexAggregateModules=false, hexIgnoreSourceFiles=true, }
+fileListPath=
+dependencyDirs=[C:/JavaProjects/Changed/ksa_changed/ksa-dao-root/ksa-security-dao]
+configFilePath=C:\JavaProjects\whitesource-fs-agent.config
+includes=[**/*.js]
+excludes=[]
+dockerIncludes=[.*.*]
+dockerExcludes=[]
+pythonRequirementsFileIncludes=[requirements.txt]
+archiveExtractionDepth=0
+archiveIncludes=[]
+archiveExcludes=[]
+followSymlinks=true
+dockerScan=false
+globCaseSensitive=false
+projectPerFolderIncludes=[*]
+projectPerFolderExcludes=[]
+apiToken=******
+userKey=
+projectVersion=
+projectToken=
+projectPerSubFolder=false
+requesterEmail=
+productToken=
+productName=ksa-multi
+productVersion=
+projectName=ksa-security-dao
+scanComment=
+requireKnownSha1=false
+scanPackageManager=false
+scanDockerImages=false
+scanServerlessFunctions=false
+logLevel=info
+}
+[INFO] [2019-01-20 14:40:33,322 +0200] - Starting analysis
+[INFO] [2019-01-20 14:40:33,324 +0200] - Scanning directories [C:\JavaProjects\Changed\ksa_changed\ksa-dao-root\ksa-security-dao] for matching Files (may take a few minutes)
+[INFO] [2019-01-20 14:40:33,327 +0200] - Included file types: **/*.js
+[INFO] [2019-01-20 14:40:33,327 +0200] - Excluded file types: 
+[INFO] [2019-01-20 14:40:33,391 +0200] - Attempting to resolve dependencies
+[INFO] [2019-01-20 14:40:33,730 +0200] - Trying to resolve MAVEN dependencies
+[INFO] [2019-01-20 14:40:33,730 +0200] - topFolder = C:\JavaProjects\Changed\ksa_changed\ksa-dao-root\ksa-security-dao
+[INFO] [2019-01-20 14:40:45,920 +0200] - Start parsing pom files
+[INFO] [2019-01-20 14:40:45,929 +0200] - End parsing pom files , found : ksa-security-dao
+[INFO] [2019-01-20 14:40:55,098 +0200] - Total dependencies found: 25
+[INFO] [2019-01-20 14:40:55,099 +0200] - Scanning directories [C:\JavaProjects\Changed\ksa_changed\ksa-dao-root\ksa-security-dao] for matching Files (may take a few minutes)
+[INFO] [2019-01-20 14:40:55,123 +0200] - Total files found according to the includes/excludes pattern: 0
+[INFO] | [                                 ] 0% - 0 of 0 files
+[INFO] [2019-01-20 14:40:55,126 +0200] - Finished analyzing Files
+[INFO] [2019-01-20 14:40:55,155 +0200] - Initializing WhiteSource Client
+[INFO] [2019-01-20 14:40:55,160 +0200] - Service URL is https://staging.whitesourcesoftware.com/agent
+[INFO] [2019-01-20 14:40:55,676 +0200] - UpdateType set to OVERRIDE 
+[INFO] [2019-01-20 14:40:55,682 +0200] - Starting VIA impact analysis
+[INFO] [2019-01-20 14:40:55,706 +0200] - Starting analysis for: C:/JavaProjects/Changed/ksa_changed/ksa-dao-root/ksa-security-dao/target/ksa-security-dao-3.9.0.jar
+[INFO] [2019-01-20 14:40:55,707 +0200] - --------------------Effective Usage Analysis----------------------
+[INFO] | [###                              ]                    (Total Progress: 10%)     
+[INFO] | [                                 ] Current Step: 01%  (Total Progress: 10%)    
+[INFO] | [#####                            ]                    (Total Progress: 15%)     
+[INFO] | [                                 ] Current Step: 01%  (Total Progress: 15%)    
+[INFO] / [######                           ]                    (Total Progress: 20%)     
+[INFO] / [                                 ] Current Step: 01%  (Total Progress: 20%)    
+[INFO] / [########                         ]                    (Total Progress: 25%)     
+[INFO] / [                                 ] Current Step: 01%  (Total Progress: 25%)    
+[INFO] - [##########                       ]                    (Total Progress: 30%)     
+[INFO] - [                                 ] Current Step: 01%  (Total Progress: 30%)    
+[INFO] - [###########                      ]                    (Total Progress: 35%)     
+[INFO] - [                                 ] Current Step: 01%  (Total Progress: 35%)    
+[INFO] \ [#############                    ]                    (Total Progress: 40%)     
+[INFO] \ [                                 ] Current Step: 01%  (Total Progress: 40%)    
+[INFO] \ [###############                  ]                    (Total Progress: 45%)     
+[INFO] \ [                                 ] Current Step: 01%  (Total Progress: 45%)    
+[INFO] | [################                 ]                    (Total Progress: 50%)     
+[INFO] | [                                 ] Current Step: 01%  (Total Progress: 50%)    
+[INFO] | [##################               ]                    (Total Progress: 55%)     
+[INFO] | [                                 ] Current Step: 01%  (Total Progress: 55%)    
+[INFO] / [####################             ]                    (Total Progress: 60%)     
+[INFO] / [                                 ] Current Step: 01%  (Total Progress: 60%)    
+[INFO] / [#####################            ]                    (Total Progress: 65%)     
+[INFO] / [                                 ] Current Step: 01%  (Total Progress: 65%)    
+[INFO] - [#######################          ]                    (Total Progress: 70%)     
+[INFO] - [                                 ] Current Step: 01%  (Total Progress: 70%)    
+[INFO] - [#########################        ]                    (Total Progress: 75%)     
+[INFO] - [                                 ] Current Step: 01%  (Total Progress: 75%)    
+[INFO] \ [##########################       ]                    (Total Progress: 80%)     
+[INFO] \ [                                 ] Current Step: 01%  (Total Progress: 80%)    
+[INFO] \ [############################     ]                    (Total Progress: 85%)     
+[INFO] \ [                                 ] Current Step: 01%  (Total Progress: 85%)    
+[INFO] | [##############################   ]                    (Total Progress: 90%)     
+[INFO] | [                                 ] Current Step: 01%  (Total Progress: 90%)    
+[INFO] [2019-01-20 14:42:22,387 +0200] - Analysis finished (0:01:26)                                         
+[INFO] [2019-01-20 14:42:22,388 +0200] - SUMMARY
+[INFO] [2019-01-20 14:42:22,388 +0200] - ----------------------------------------
+[INFO] [2019-01-20 14:42:22,388 +0200] - [EUA000] Analysis completed successfully
+[INFO] [2019-01-20 14:42:22,388 +0200] - ------------------------------------------------------------------
+[INFO] [2019-01-20 14:42:22,390 +0200] - Got impact analysis result from server
+[INFO] [2019-01-20 14:42:22,391 +0200] - Sending Update
+[INFO] [2019-01-20 14:42:25,583 +0200] - Inventory update results for EUA JS
+[INFO] [2019-01-20 14:42:25,583 +0200] - Newly created projects:
+[INFO] [2019-01-20 14:42:25,583 +0200] - # ksa-security-dao
+[INFO] [2019-01-20 14:42:25,583 +0200] - No projects were updated.
+[INFO] [2019-01-20 14:42:25,583 +0200] - Project name: ksa-security-dao, URL: https://staging.whitesourcesoftware.com/Wss/WSS.html#!project;id=752177
+[INFO] [2019-01-20 14:42:25,583 +0200] - Support Token: 17aecb9c9ec254c619505f54a3cd68a481547988142346
+[INFO] [2019-01-20 14:42:25,785 +0200] - Process finished with exit code SUCCESS (0)
+
+
+Logs is finalized

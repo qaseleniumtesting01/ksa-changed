@@ -1,0 +1,143 @@
+[INFO] [2019-01-20 14:40:33,374 +0200] - FSA Configuration {
+projectPerFolder=false
+connectionTimeOut=60
+checkPolicies=false
+serviceUrl=https://staging.whitesourcesoftware.com/agent
+forceCheckAllDependencies=false
+forceUpdate=false
+forceUpdateFailBuildOnPolicyViolation=false
+updateTypeValue=OVERRIDE
+updateInventory=true
+offline=false
+zip=false
+prettyJson=true
+ignoreSourceFiles=false
+npm: {npmRunPreStep=true, npmIgnoreScripts=false, npmResolveDependencies=true, npmIncludeDevDependencies=true, npmTimeoutDependenciesCollector=60, npmIgnoreNpmLsErrors=true, npmYarnProject=false, npmIgnoreSourceFiles=true, npmIdentifyByNameAndVersion=false, }
+bower: {bowerResolveDependencies=false, bowerRunPreStep=false, bowerIgnoreSourceFiles=false, }
+nuget: {nugetResolveDependencies=false, nugetRestoreDependencies=false, nugetRunPreStep=false, nugetIgnoreSourceFiles=true, nugetResolvePackagesConfigFiles=true, nugetResolveCsProjFiles=true, }
+maven: {mavenResolveDependencies=true, mavenIgnoredScopes=[All], mavenAggregateModules=true, mavenIgnorePomModules=true, mavenIgnoreSourceFiles=false, mavenRunPreStep=false, mavenIgnoreDependencyTreeErrors=false, mavenEnvironmentPath=, }
+python: {pythonResolveDependencies=false, pipPath=pip, pythonPath=python, pythonIgnorePipInstallErrors=false, pythonInstallVirtualenv=false, pythonResolveHierarchyTree=true, pythonRequirementsFileIncludes=[requirements.txt, Pipfile], pythonResolveSetupPyFiles=false, pythonIgnoreSourceFiles=true, ignorePipEnvInstallErrors=false, pipenvInstallDevDependencies=false, runPipenvPreStep=false, pythonIsWssPluginInstalled=false, pythonUninstallWssPlugin=false, }
+gradle: {gradleResolveDependencies=true, gradleRunAssembleCommand=true, gradleAggregateModules=true, gradlePreferredEnvironment=gradle, gradleLocalRepositoryPath=, gradleIgnoreSourceFiles=false, gradleRunPreStep=true, gradleIgnoredScopes=[], }
+paket: {paketResolveDependencies=true, paketIgnoredScopes=, paketRunPreStep=false, paketPath=, paketIgnoreSourceFiles=true, }
+go: {goResolveDependencies=false, goDependencyManager=, goCollectDependenciesAtRuntime=false, goGlideIgnoreTestPackages=true, goGlideIgnoreSourceFiles=false, goGradleEnableTaskAlias=false, }
+ruby: {rubyResolveDependencies=false, rubyRunBundleInstall=false, rubyOverwriteGemFile=false, rubyInstallMissingGems=false, rubyIgnoreSourceFiles=true, }
+php: {phpResolveDependencies=false, phpRunPreStep=false, phpIncludeDevDependencies=false, }
+sbt: {sbtResolveDependencies=true, sbtAggregateModules=false, sbtRunPreStep=false, sbtTargetFolder=[], sbtIgnoreSourceFiles=false, }
+html: {htmlResolveDependencies=false, }
+cocoapods: {cocoapodsResolveDependencies=true, cocoapodsRunPreStep=false, cocoapodsIgnoreSourceFiles=true, }
+hex: {hexResolveDependencies=true, hexRunPreStep=false, hexAggregateModules=false, hexIgnoreSourceFiles=true, }
+fileListPath=
+dependencyDirs=[C:/JavaProjects/Changed/ksa_changed/ksa-web-core]
+configFilePath=C:\JavaProjects\whitesource-fs-agent.config
+includes=[**/*.js]
+excludes=[]
+dockerIncludes=[.*.*]
+dockerExcludes=[]
+pythonRequirementsFileIncludes=[requirements.txt]
+archiveExtractionDepth=0
+archiveIncludes=[]
+archiveExcludes=[]
+followSymlinks=true
+dockerScan=false
+globCaseSensitive=false
+projectPerFolderIncludes=[*]
+projectPerFolderExcludes=[]
+apiToken=******
+userKey=
+projectVersion=
+projectToken=
+projectPerSubFolder=false
+requesterEmail=
+productToken=
+productName=ksa-multi
+productVersion=
+projectName=ksa-web-core
+scanComment=
+requireKnownSha1=false
+scanPackageManager=false
+scanDockerImages=false
+scanServerlessFunctions=false
+logLevel=info
+}
+[INFO] [2019-01-20 14:40:33,519 +0200] - Starting analysis
+[INFO] [2019-01-20 14:40:33,525 +0200] - Scanning directories [C:\JavaProjects\Changed\ksa_changed\ksa-web-core] for matching Files (may take a few minutes)
+[INFO] [2019-01-20 14:40:33,556 +0200] - Included file types: **/*.js
+[INFO] [2019-01-20 14:40:33,557 +0200] - Excluded file types: 
+[INFO] [2019-01-20 14:40:33,638 +0200] - Attempting to resolve dependencies
+[INFO] [2019-01-20 14:40:37,078 +0200] - Trying to resolve MAVEN dependencies
+[INFO] [2019-01-20 14:40:37,078 +0200] - topFolder = C:\JavaProjects\Changed\ksa_changed\ksa-web-core
+[INFO] [2019-01-20 14:40:52,679 +0200] - Start parsing pom files
+[INFO] [2019-01-20 14:40:52,690 +0200] - End parsing pom files , found : ksa-web-core
+[INFO] [2019-01-20 14:40:52,894 +0200] - Total dependencies found: 44
+[INFO] [2019-01-20 14:40:52,895 +0200] - Scanning directories [C:\JavaProjects\Changed\ksa_changed\ksa-web-core] for matching Files (may take a few minutes)
+[INFO] [2019-01-20 14:40:52,938 +0200] - Total files found according to the includes/excludes pattern: 0
+[INFO] | [                                 ] 0% - 0 of 0 files
+[INFO] [2019-01-20 14:40:52,939 +0200] - Finished analyzing Files
+[INFO] [2019-01-20 14:40:53,009 +0200] - Initializing WhiteSource Client
+[INFO] [2019-01-20 14:40:53,013 +0200] - Service URL is https://staging.whitesourcesoftware.com/agent
+[INFO] [2019-01-20 14:40:54,241 +0200] - UpdateType set to OVERRIDE 
+[INFO] [2019-01-20 14:40:54,244 +0200] - Starting VIA impact analysis
+[INFO] [2019-01-20 14:40:54,265 +0200] - Starting analysis for: C:/JavaProjects/Changed/ksa_changed/ksa-web-core/target/ksa-web-core-3.9.0.jar
+[INFO] [2019-01-20 14:40:54,266 +0200] - --------------------Effective Usage Analysis----------------------
+[INFO] | [###                              ]                    (Total Progress: 10%)     
+[INFO] | [                                 ] Current Step: 01%  (Total Progress: 10%)    
+[INFO] | [#####                            ]                    (Total Progress: 15%)     
+[INFO] | [                                 ] Current Step: 01%  (Total Progress: 15%)    
+[INFO] / [######                           ]                    (Total Progress: 20%)     
+[INFO] / [                                 ] Current Step: 01%  (Total Progress: 20%)    
+[INFO] / [########                         ]                    (Total Progress: 25%)     
+[INFO] / [                                 ] Current Step: 01%  (Total Progress: 25%)    
+[INFO] - [##########                       ]                    (Total Progress: 30%)     
+[INFO] - [                                 ] Current Step: 01%  (Total Progress: 30%)    
+[INFO] - [###########                      ]                    (Total Progress: 35%)     
+[INFO] - [                                 ] Current Step: 01%  (Total Progress: 35%)    
+[INFO] \ [#############                    ]                    (Total Progress: 40%)     
+[INFO] \ [                                 ] Current Step: 01%  (Total Progress: 40%)    
+[INFO] \ [###############                  ]                    (Total Progress: 45%)     
+[INFO] \ [                                 ] Current Step: 01%  (Total Progress: 45%)    
+[INFO] | [################                 ]                    (Total Progress: 50%)     
+[INFO] | [                                 ] Current Step: 01%  (Total Progress: 50%)    
+[INFO] | [##################               ]                    (Total Progress: 55%)     
+[INFO] | [                                 ] Current Step: 01%  (Total Progress: 55%)    
+[INFO] / [####################             ]                    (Total Progress: 60%)     
+[INFO] / [                                 ] Current Step: 01%  (Total Progress: 60%)    
+[INFO] / [########                         ] Current Step: 25%  (Total Progress: 60%)    
+[INFO] / [################                 ] Current Step: 50%  (Total Progress: 60%)    
+[INFO] - [#########################        ] Current Step: 75%  (Total Progress: 60%)    
+[INFO] - [###########################      ] Current Step: 83%  (Total Progress: 60%)    
+[INFO] - [##############################   ] Current Step: 91%  (Total Progress: 60%)    
+[INFO] - [#################################] Current Step: 99%  (Total Progress: 60%)    
+[INFO] \ [#####################            ]                    (Total Progress: 65%)     
+[INFO] \ [                                 ] Current Step: 01%  (Total Progress: 65%)    
+[INFO] \ [###########                      ] Current Step: 33%  (Total Progress: 65%)    
+[INFO] \ [######################           ] Current Step: 66%  (Total Progress: 65%)    
+[INFO] | [#################################] Current Step: 99%  (Total Progress: 65%)    
+[INFO] | [#######################          ]                    (Total Progress: 70%)     
+[INFO] | [                                 ] Current Step: 01%  (Total Progress: 70%)    
+[INFO] | [#########################        ]                    (Total Progress: 75%)     
+[INFO] / [                                 ] Current Step: 01%  (Total Progress: 75%)    
+[INFO] / [##########################       ]                    (Total Progress: 80%)     
+[INFO] / [                                 ] Current Step: 01%  (Total Progress: 80%)    
+[INFO] / [############################     ]                    (Total Progress: 85%)     
+[INFO] - [                                 ] Current Step: 01%  (Total Progress: 85%)    
+[INFO] - [##############################   ]                    (Total Progress: 90%)     
+[INFO] - [                                 ] Current Step: 01%  (Total Progress: 90%)    
+[INFO] - [###############################  ]                    (Total Progress: 95%)     
+[INFO] \ [                                 ] Current Step: 01%  (Total Progress: 95%)    
+[INFO] [2019-01-20 14:45:47,392 +0200] - Analysis finished (0:04:52)                                         
+[INFO] [2019-01-20 14:45:47,396 +0200] - SUMMARY
+[INFO] [2019-01-20 14:45:47,396 +0200] - ----------------------------------------
+[INFO] [2019-01-20 14:45:47,396 +0200] - [EUA000] Analysis completed successfully
+[INFO] [2019-01-20 14:45:47,396 +0200] - ------------------------------------------------------------------
+[INFO] [2019-01-20 14:45:47,400 +0200] - Got impact analysis result from server
+[INFO] [2019-01-20 14:45:47,405 +0200] - Sending Update
+[INFO] [2019-01-20 14:45:52,337 +0200] - Inventory update results for EUA JS
+[INFO] [2019-01-20 14:45:52,337 +0200] - Newly created projects:
+[INFO] [2019-01-20 14:45:52,337 +0200] - # ksa-web-core
+[INFO] [2019-01-20 14:45:52,338 +0200] - No projects were updated.
+[INFO] [2019-01-20 14:45:52,338 +0200] - Project name: ksa-web-core, URL: https://staging.whitesourcesoftware.com/Wss/WSS.html#!project;id=752188
+[INFO] [2019-01-20 14:45:52,338 +0200] - Support Token: 0d9e2dde4b2d248759519d7d3786829f61547988348974
+[INFO] [2019-01-20 14:45:52,360 +0200] - Process finished with exit code SUCCESS (0)
+
+
+Logs is finalized
